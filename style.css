@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(57, 24, 109);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+/* home section styling  */
+.home{
+    display: flex;
+    background: url("images/photo3.jpg") no-repeat center ;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 75px;
+    font-weight: 600;
+    margin-right: -3px;
+    text-align: right;
+}
+
+.home .home-content .text-2{
+    font-size: 40px;
+    margin: 0 5px;
+    text-align: right;
+}
+
+.home .home-content .text-2 span{
+    color: #fff;
+    font-weight: 500;
+}
+
+.home .home-content .icon-bar{
+     overflow: visible;
+     padding-left: 40%;
+     text-align : center;
+
+}
+
+ 
+.home .home-content .icon-bar a {
+    text-align: justify;
+    padding: 20px 20px;
+    font-size: 23px;
+  }
+  
+  
+.home .home-content .icon-bar a:hover {
+    background-color: rgb(88, 20, 109);
+  }
+  
+
+
+  .home .home-content .text-3{
+    padding-left: 45%;
+    font-size: 23px;
+    margin: 0 5px;
+    text-align: justify;
+    color: #fff;
+}
+
+
+
+
+
+
+/*----contact page css-----------*/
+
+
+.home .contact {
+    margin-top: 4rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+ .home .contact h3,
+ .home .contact h4 {
+    font-weight: 300;
+    padding: 0.5rem;
+  }
+  
+ .home .contact .contact-form .contact-field {
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .home .contact .contact-form .submit-btn {
+    background: #6767f3;
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .home .contact i {
+    padding: 2rem;
+    color: #9494fd;
+  }
+  
+  .home .contact .telegram-icon {
+    color: #3eb7e7;
+  }
+  
+ .home .contact .email-icon {
+    color: #db4007;
+  }
+  
+ .home .contact .instagram-icon {
+    color: #dd1081;
+  }
+  
+.home .contact .twitter-icon {
+    color: #07b6d4;
+  }
+  
+.home .contact .contact-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+ .home .contact .contact-icons a {
+    display: block;
+  }
+  
+
+
+
+  /*----project css----------*/
+
+
+table.center {
+  margin-left: 5%; 
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding-left: 20%;
+    margin-left: 5%; 
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  
+     }
+  
+th{
+    font-size: 30px;
+}
